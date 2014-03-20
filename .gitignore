@@ -1,0 +1,4 @@
+# Object files
+!*.c
+!*.wav
+!Makefile
