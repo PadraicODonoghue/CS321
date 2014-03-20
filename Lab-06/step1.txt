@@ -1,0 +1,20 @@
+include stdio library
+include stdlib library
+
+declare main function
+
+	declare randarray an int array of length 20
+
+	iterate through randarray
+		generate a random integer x between 0 and 20
+		set current slot of randarray equal to x
+
+	iterate through randarray
+		print value of current index of randarray and the value 
+
+	declare int count and set value to zero
+
+	iterate through randarray
+		if value at current slot of randarray is greater than 5
+			increment count
+			print count and value in current slot of randarray				

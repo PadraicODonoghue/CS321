@@ -1,5 +1,8 @@
-# Ignore all except .c and .wav
+# Ignore all in sub-dirs except .c and .wav
 */*
 !*/*.c
 !*/*.wav
+
+# Special Case for Lab 6
+!Lab-06/*
 
