@@ -1,4 +1,5 @@
-# Object files
+# Ignore all except .c and .wav
+*
 !*.c
 !*.wav
-!Makefile
+
